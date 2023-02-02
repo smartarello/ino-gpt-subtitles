@@ -1,0 +1,30 @@
+version: '3.4'
+
+services:
+  fastapi:
+    image: ino-gpt-fastapi
+    container_name: "ino-gpt-fastapi"
+    network_mode: "host"
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - "8000:8000"
+    env_file:
+      - ./.env
+    volumes:
+      - ./:/app
+  frontend:
+    image: node:18
+    env_file:
+      - ./.env
+    container_name: ino-gpt-ui
+    entrypoint: "/usr/src/app/run/entrypoint.dev.sh"
+    command: npm run start
+    ports:
+      - '3000:3000'
+    volumes:
+      - '.:/usr/src/app'
+    working_dir: /usr/src/app
+    stdin_open: true
+    tty: true

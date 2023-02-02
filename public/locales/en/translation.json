@@ -1,0 +1,23 @@
+{
+  "nav": {
+    "dashboard": "dashboard",
+    "browse": "browse",
+    "myLearning": "my learning",
+    "search": "Search..."
+  },
+  "pageDashboard": {
+    "header": "Dashboard"
+  },
+  "pageBrowse": {
+    "header": "Browse Content Library",
+    "description": "This is the Browse Page"
+  },
+  "pageMyLearning": {
+    "header": "My Learning",
+    "description": "This is the My Learning Page"
+  },
+  "pageSubtitle": {
+    "header": "Video subtitles analysis"
+    
+  }
+}

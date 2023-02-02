@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "downlevelIteration": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "baseUrl": ".",
+    "noEmit": true,
+    "jsx": "react-jsx"
+  },
+  "ts-node": {
+    "swc": true,
+    "compilerOptions": {
+      "module": "Node16",
+      "sourceMap": true
+    }
+  },
+  "include": [
+    "src", "__mocks__", "scripts"
+  ]
+}

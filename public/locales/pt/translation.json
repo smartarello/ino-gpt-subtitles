@@ -1,0 +1,19 @@
+{
+  "nav": {
+    "dashboard": "painel de controle",
+    "browse": "navegar",
+    "myLearning": "meu aprendizado",
+    "search": "Buscar..."
+  },
+  "pageDashboard": {
+    "header": "Painel de Controle"
+  },
+  "pageBrowse": {
+    "header": "Navegue pela biblioteca de conteúdos",
+    "description": "Esta é a pagina de navegação"
+  },
+  "pageMyLearning": {
+    "header": "Meu Aprendizado",
+    "description": "Esta é a página dos meus aprendizados"
+  }
+}
